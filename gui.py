@@ -2,14 +2,13 @@
 	@descr: gui for image slicer
 	@version: 1.0
 '''
-
 import crop
 from tkinter import filedialog
 from tkinter import *
 
 root = Tk()
 root.minsize(300,150)
-root.title("Esme's Image Slicer")
+root.title("Image Slicer")
 root.configure(bg='#6b788c')
 
 def askForInputFile():

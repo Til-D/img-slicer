@@ -31,6 +31,9 @@ def cropImage(srcImage, targetFolder):
 	# closing function 
 	kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (7, 7))
 	closed = cv2.morphologyEx(edged, cv2.MORPH_CLOSE, kernel)
+
+	# cv2.imshow("img viewer", closed)
+	# cv2.waitKey()
 	 
 	# finding_contours 
 	(cnts, _) = cv2.findContours(closed.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
