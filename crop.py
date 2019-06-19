@@ -9,7 +9,8 @@ import os
 import argparse
 
 OUTPUT_FOLDER = './output/'
-MIN_WIDTH, MIN_HEIGHT = 50
+MIN_WIDTH = 50
+MIN_HEIGHT = 50
 
 def is_valid_file(parser, arg):
     if not os.path.exists(arg):
