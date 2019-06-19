@@ -8,10 +8,10 @@ A wee script slicing images along detected contours.
 ```
 Optional arguments:
   -h, --help  show this help message and exit
+  -d FOLDER   output folder
 
 Required arguments:
   -s FILE     input image file
-  -d FILE     output folder (will be created if non-existent)
 ```
 
 ### gui.py

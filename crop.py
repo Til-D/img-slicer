@@ -58,7 +58,7 @@ if __name__ == '__main__':
                     type=lambda x: is_valid_file(parser, x))
 
 	parser.add_argument("-d", dest="outputFolder", required=False, default=OUTPUT_FOLDER,
-                    help="output folder (will be created if non-existent)", metavar="FILE")
+                    help="output folder (will be created if non-existent)", metavar="FOLDER")
 	
 	args = parser.parse_args()
 
