@@ -3,11 +3,11 @@
 A wee script slicing images along detected contours.
 
 ## Execution
-The executable (MacOS) app can be found [here](blob/master/dist/ImageSlicer.zip).
+The executable (MacOS) app can be found [here](dist/ImageSlicer.zip).
 
 To directly call from the command line, use the following modules:
 
-### [crop.py](blob/master/crop.py)
+### [crop.py](crop.py)
 ```
 Optional arguments:
   -h, --help  show this help message and exit
@@ -17,7 +17,7 @@ Required arguments:
   -s FILE     input image file
 ```
 
-### [gui.py](blob/master/gui.py)
+### [gui.py](gui.py)
 Fires up a simple tkinter GUI
 
 ## Author
