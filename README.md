@@ -18,7 +18,7 @@ Required arguments:
 ```
 
 ### [gui.py](gui.py)
-Fires up a simple tkinter GUI
+Fires up a simple tkinter GUI.
 
 ## Author
 - [Tilman Dingler](https://github.com/Til-D/)
