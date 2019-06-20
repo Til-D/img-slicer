@@ -14,6 +14,7 @@ root.configure(bg='#6b788c')
 def askForInputFile():
 	root.filename =  filedialog.askopenfilename(initialdir = "./",title = "Select input image",filetypes = (("jpeg files","*.jpg"), ("png files","*.png"), ("all files","*.*")))
 	btn2.configure(state=NORMAL)
+	status.configure(text="")
 
 def askForTargetFolder():
 	root.directory = filedialog.askdirectory()
