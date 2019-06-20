@@ -3,6 +3,9 @@
 A wee script slicing images along detected contours.
 
 ## Execution
+The executable (MacOS) app can be found [here](https://github.com/Til-D/img-slicer/blob/master/dist/ImageSlicer.zip).
+
+To directly call from the command line, use the following modules:
 
 ### crop.py
 ```
